@@ -9,7 +9,7 @@
     "db"
   ],
   "type": "library",
-  "license": "Public Domain",
+  "license": "MIT",
   "authors": [
     {
       "name": "Sergey",
