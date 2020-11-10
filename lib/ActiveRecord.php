@@ -2,12 +2,12 @@
 /**
  * ActiveRecord.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 01.03.2016 16:59
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 
 use yii\base\InvalidConfigException;
@@ -19,7 +19,7 @@ use yii\helpers\StringHelper;
 
 /**
  * Class ActiveRecord
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 abstract class ActiveRecord extends BaseActiveRecord
 {

@@ -6,7 +6,7 @@ yii2-sharding
 Установка
 -------------------
  
-Установка с помощью пакета composer `"axiles89/yii2-sharding": "*"`
+Установка с помощью пакета composer `"kllakk/yii2-sharding": "*"`
 
 Пример использования
 ------------
@@ -15,7 +15,7 @@ yii2-sharding
 
 ```php
  'sharding' => [
-            'class' => 'axiles89\sharding\Connection',
+            'class' => 'kllakk\sharding\Connection',
             'shard' => [
                 'profile' => [
                     'coordinator' => 'coordinator',
@@ -27,10 +27,10 @@ yii2-sharding
 Где `shard` - это массив разных типов шардирования, где ключами выступают имена этих типов. Для каждого типа необходимо задать 
 название компонента координатора `coordinator` и массив названий компонентов баз данных `db`, которые участвуют в данном виде шардинга.
 
-Затем сконфигурируйте и настройте компонент [coordinator](https://github.com/axiles89/yii2-coordinator) для данного типа разделения
+Затем сконфигурируйте и настройте компонент [coordinator](https://github.com/kllakk/yii2-coordinator) для данного типа разделения
 данных.
 
-Для использования необходимо наследовать вашу Active Record модель от класса `axiles89\sharding\ActiveRecord` и реализовать
+Для использования необходимо наследовать вашу Active Record модель от класса `kllakk\sharding\ActiveRecord` и реализовать
 обязательные методы:
 
 ```php

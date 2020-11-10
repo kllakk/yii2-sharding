@@ -2,19 +2,19 @@
 /**
  * QueryBuilder.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 09.03.2016 14:40
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 use yii\base\Object;
 
 /**
  * Построитель запросов
  * Class QueryBuilder
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class QueryBuilder extends Object
 {

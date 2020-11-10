@@ -2,12 +2,12 @@
 /**
  * HelperCoordinator.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 16.03.2016 16:53
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 use yii\base\Exception;
 use yii\base\InvalidParamException;
@@ -16,7 +16,7 @@ use yii\db\Query;
 /**
  * Класс для получения значения ключей шарда из условия запроса
  * Class HelperCoordinator
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class HelperCoordinator
 {

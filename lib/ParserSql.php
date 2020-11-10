@@ -2,18 +2,18 @@
 /**
  * ParserSql.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 22.03.2016 22:51
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 use yii\base\InvalidParamException;
 
 /**
  * Class ParserSql
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class ParserSql
 {

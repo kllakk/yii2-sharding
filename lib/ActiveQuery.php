@@ -2,12 +2,12 @@
 /**
  * ActiveQuery.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 01.03.2016 17:22
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 
 use yii\base\Component;
@@ -23,7 +23,7 @@ use yii\db\QueryTrait;
 
 /**
  * Class ActiveQuery
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class ActiveQuery extends Query implements ActiveQueryInterface
 {

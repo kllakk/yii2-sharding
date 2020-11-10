@@ -2,12 +2,12 @@
 /**
  * Connection.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 04.03.2016 19:56
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 
 use yii\base\Component;
@@ -15,7 +15,7 @@ use yii\base\InvalidConfigException;
 
 /**
  * Class Connection
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class Connection extends Component
 {

@@ -2,19 +2,19 @@
 /**
  * Command.php
  *
- * @package axiles89\sharding
+ * @package kllakk\sharding
  * @date: 09.03.2016 18:04
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\sharding;
+namespace kllakk\sharding;
 
 
 use yii\base\Component;
 
 /**
  * Class Command
- * @package axiles89\sharding
+ * @package kllakk\sharding
  */
 class Command extends Component
 {
@@ -178,7 +178,7 @@ class Command extends Component
         $result = [];
         foreach ($this->pdoStatement as $dbName => $pdo) {
             try {
-                \Yii::beginProfile($token[$dbName], 'axiles89\sharding\Command::query');
+                \Yii::beginProfile($token[$dbName], 'kllakk\sharding\Command::query');
                 $pdo->execute();
 
                 if ($fetchMode === null) {
@@ -191,9 +191,9 @@ class Command extends Component
                 if ($data) {
                     $result = array_merge($result, (is_array($data)) ? $data : [$data]);
                 }
-                \Yii::endProfile($token[$dbName], 'axiles89\sharding\Command::query');
+                \Yii::endProfile($token[$dbName], 'kllakk\sharding\Command::query');
             } catch (\Exception $e) {
-                \Yii::endProfile($token[$dbName], 'axiles89\sharding\Command::query');
+                \Yii::endProfile($token[$dbName], 'kllakk\sharding\Command::query');
                 throw \Yii::$app->get($dbName)->getSchema()->convertException($e, $token[$dbName]);
             }
 
