@@ -27,7 +27,7 @@ use yii\db\QueryTrait;
  */
 class ActiveQuery extends Query implements ActiveQueryInterface
 {
-    use QueryTrait;
+    //use QueryTrait;
     use ActiveQueryTrait;
     use ActiveRelationTrait;
 

@@ -9,14 +9,12 @@
 
 namespace kllakk\sharding;
 
-use yii\base\Object;
-
 /**
  * Построитель запросов
  * Class QueryBuilder
  * @package kllakk\sharding
  */
-class QueryBuilder extends Object
+class QueryBuilder extends \yii\base\BaseObject
 {
     /**
      * Массив названий компонентов db
